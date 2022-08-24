@@ -7,5 +7,5 @@ Suite Teardown      Close Session
 
 
 *** Test Cases ***
-Scenario1 - Test1
+Scenario1 - Test1        [Tags]     dropdown 
     Go To page       Dropdown     dropdown
