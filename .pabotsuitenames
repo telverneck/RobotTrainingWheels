@@ -1,0 +1,9 @@
+datasources:f8973994ed59462c356eb9f4c3f55cfaa44998c9
+commandlineoptions:9f8598a690c7367accf83ead504756ddd374acc9
+suitesfrom:no-suites-from-option
+file:41c1d286a8ad7acc5e5494a93e50f0db3669e676
+--suite Suites.Checkbox
+--suite Suites.Dropdown
+--suite Suites.Home Test
+--suite Suites.Home Test2
+--suite Suites.Login
