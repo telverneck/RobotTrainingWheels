@@ -8,3 +8,4 @@ Suite Teardown      Close Session
 
 *** Test Cases ***
 Scenario1 - Test1
+    Go To page       Dropdown     dropdown

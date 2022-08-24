@@ -69,6 +69,7 @@ Select All Checkboxes
     
     FOR    ${checkbox}    IN    @{checkboxes}
         Select Checkbox    ${checkbox}
+        Checkbox Should Be Selected    ${checkbox}
     END
 
 Click JavaScript

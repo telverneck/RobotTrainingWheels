@@ -5,7 +5,7 @@ Resource            ../Resources/BasePage.robot
 Suite Setup         Start Session 
 Suite Teardown      Close Session
 
-Test Template       Go To page   
+Test Template       Go To page       
 
 
 
