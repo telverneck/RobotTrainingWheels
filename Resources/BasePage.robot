@@ -34,12 +34,13 @@ ${FRAME}                            css:iframe#Simulator
 
 ***Keywords***
 Start Session
-    Open Browser            about:blank     ${BROWSER}
-    Set Selenium Implicit Wait          ${TIMEOUT}
-    Set window size                     ${BROWSER_WIDTH}    ${BROWSER_HEIGHT}
-    Go To                   ${BASEURL}
-    ${PageTitle}=            SeleniumLibrary.Get Title
-    Log                     ${PageTitle}
+    Open Browser                    about:blank         ${BROWSER}
+    Set Browser Implicit Wait       ${TIMEOUT}
+    Set Selenium Timeout            ${TIMEOUT}
+    Set window size                 ${BROWSER_WIDTH}    ${BROWSER_HEIGHT}
+    Go To                           ${BASEURL}
+    ${PageTitle}=                   SeleniumLibrary.Get Title
+    Log                             ${PageTitle}
 
 
 Close Session
