@@ -2,7 +2,10 @@
  
 # Author: Telmo Rodrigues Correa
 
-# This Base project for Robot Framework
+# This is a project for Training Wheels website using Robot Framework
+# for More, please visit https://training-wheels-protocol.herokuapp.com/
+# Robot Framework documentation: https://robotframework.org/
+# Selenium Keyword Documentation https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
 
 ## Installation:
 - Requires Robot Framework 
